@@ -10,9 +10,7 @@ The controller can then be used to play a synthesizer via midi.
 
 ## Approach
 
-The proposed interface is relatively simple. Buttons will replace the finger holes and an [air pressure sensor](https://www.homemade-circuits.com/hx710b-air-pressure-sensor-datasheet-how-to-connect/) will be used to measure the players blowing. 
+The proposed interface is relatively simple. Buttons will replace the finger holes and an [HX710B air pressure sensor](https://www.homemade-circuits.com/hx710b-air-pressure-sensor-datasheet-how-to-connect/) will be used to measure the players blowing. 
 
-Air pressure sensor - 
-
-The button compination and pressure will be read by an Arduino which will convert them into midi information using the [Arduino Midi library](https://reference.arduino.cc/reference/en/libraries/midi-library/)
+The button combination and pressure will be read by a USB Compatible Arduino which will convert them into MIDI information using the [Arduino Midi library](https://reference.arduino.cc/reference/en/libraries/midi-library/).
 
